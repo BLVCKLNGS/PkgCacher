@@ -1,0 +1,27 @@
+{
+  "name": "pkgcacher",
+  "version": "0.0.1",
+  "description": "This is a `node.js` package to help APT Repository Managers to cache dynamically their files.",
+  "main": "cacher.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node build/app.js",
+    "start:prod": "tsc && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLVCKLNGS/PkgCacher.git"
+  },
+  "author": "Hugo <BLVCKLNGS>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BLVCKLNGS/PkgCacher/issues"
+  },
+  "homepage": "https://github.com/BLVCKLNGS/PkgCacher#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "typescript": "^3.4.5"
+  }
+}
